@@ -1,57 +1,78 @@
-<html lang="en" hola_ext_inject="ready"><head>
-    <meta charset="utf-8">
-    
-    <!-- <link rel="shortcut icon" type="image/x-icon" href="http://neat.bourbon.io/favicon.ico"> -->
-    <title>Bacon</title>
-    <link rel="stylesheet" href="css/app.css">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en"><head>
+  <meta charset="utf-8">
+  
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="http://neat.bourbon.io/favicon.ico"> -->
+  <title>Bacon</title>
+  <link rel="stylesheet" href="css/app.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
 
   <body>
 
  <div class="hero">
-	<div class="hero-inner">
-    <a href="" class="hero-logo"><img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo Image"></a>
-		<div class="hero-copy">
-			<h1>Bring Home The Bacon</h1>
-			<p>Delicious bacon, delivered to you!</p>	
-		</div>
-    <button>Subscribe</button>
-	</div>
+  <div class="hero-inner">
+  <a href="" class="hero-logo"><img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo Image"></a>
+    <div class="hero-copy">
+      <h1>Bring Home The Bacon</h1>
+      <p>Delicious bacon, delivered to you!</p>
+    </div>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="PRLUL4XWS33VU">
+    <button title="PayPal handles subscriptions. We feel much safer that way; you should too!">Subscribe</button>
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_AU/i/scr/pixel.gif" width="1" height="1">
+  </form>
+  </div>
 </div> 
 
 <ul class="bullets">
   <li class="bullet three-col-bullet">
-    <div class="bullet-icon bullet-icon-1">
-      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png
+  <div class="bullet-icon bullet-icon-1">
+    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png
 " alt="">
+  </div>
+  <div class="bullet-content">
+    <h2>How it works</h2>
+    <p>Every fortnight we deliver you a pack of delicious bacon. Simple!</p>
+    <p>Each time it’ll be from a different farm, showcasing the best that bacon has to offer.</p>
     </div>
-    <div class="bullet-content">
-      <h2>How it works</h2>
-      <p>Every fortnight we deliver you a pack of delicious bacon. Simple!</p>
-      <p>Each time it’ll be from a different farm, showcasing the best that bacon has to offer.</p>
-      </div>
   </li>  
   <li class="bullet three-col-bullet">
-    <div class="bullet-icon bullet-icon-2">
-      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3.png" alt="">
-    </div>
-    <div class="bullet-content">
-      <h2>About the bacon</h2>
-      <p>We find the most delicious bacon, from farms with the highest welfare standards, cured by the best butchers.</p>
-      <p>You can be sure that your bacon will be mind blowingly delicious and that the pig it came from lived a happy life.</p>
-    </div>
+  <div class="bullet-icon bullet-icon-2">
+    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3.png" alt="">
+  </div>
+  <div class="bullet-content">
+    <h2>About the bacon</h2>
+    <p>We find the most delicious bacon, from farms with the highest welfare standards, cured by the best butchers.</p>
+    <p>You can be sure that your bacon will be mind blowingly delicious and that the pig it came from lived a happy life.</p>
+  </div>
   </li>
   <li class="bullet three-col-bullet">
-    <div class="bullet-icon bullet-icon-3">
-      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_4.png" alt="">
-    </div>
-    <div class="bullet-content">
-      <h2>Where we deliver</h2>
-      <p>We currently deliver to any office in 2000, 2007, 2008, 2009, 2010 or 2011 as well as crossfit Creature in Marrickville and Edgecliffe. We’re just starting out, so if you aren’t covered by that then keep checking back as we add more places.</p>
-    </div>
+  <div class="bullet-icon bullet-icon-3">
+    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_4.png" alt="">
+  </div>
+  <div class="bullet-content">
+    <h2>Where we deliver</h2>
+    <p>We currently deliver to any office in 
+    <a href="https://www.google.com.au/maps/search/2000/@-33.8903616,151.1996804,13z?hl=en">2000</a>, 
+    <a href="https://www.google.com.au/maps/search/2007/@-33.8903616,151.1996804,13z?hl=en">2007</a>, 
+    <a href="https://www.google.com.au/maps/search/2008/@-33.8903616,151.1996804,13z?hl=en">2008</a>, 
+    <a href="https://www.google.com.au/maps/search/2009/@-33.8903616,151.1996804,13z?hl=en">2009</a>, 
+    <a href="https://www.google.com.au/maps/search/2010/@-33.8903616,151.1996804,13z?hl=en">2010</a> or 
+    <a href="https://www.google.com.au/maps/search/2011/@-33.8903616,151.1996804,13z?hl=en">2011</a> as well as 
+       <a href="http://www.crossfitcreature.com/">Crossfit Creature</a> in <a href="http://bit.ly/1Nq0IMI">Marrickville</a> and <a href="http://bit.ly/1xK2vLb">Edgecliffe</a>. We’re just starting out, so if you aren’t covered by that then keep checking back as we add more places.</p>
+  </div>
   </li> 
 </ul>
+
+<div class="second-subscribe">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="PRLUL4XWS33VU">
+    <button title="PayPal handles subscriptions. We feel much safer that way; you should too!">Subscribe</button>
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_AU/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div>
 
 
 <!--<div class="wrapper-for-content-outside-of-footer">
@@ -61,32 +82,32 @@
 
 <footer class="footer-2" role="contentinfo">
   <div class="footer-logo">
-    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo image">
+  <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo image">
   </div>
+  <ul>
+    <li><a href="javascript:void(0)">About</a></li>
+    <li><a href="javascript:void(0)">Contact</a></li>
+    <li><a href="javascript:void(0)">Products</a></li>
+  </ul>
+
+  <div class="footer-secondary-links">
     <ul>
-      <li><a href="javascript:void(0)">About</a></li>
-      <li><a href="javascript:void(0)">Contact</a></li>
-      <li><a href="javascript:void(0)">Products</a></li>
+    <li><a href="javascript:void(0)">Terms and Conditions</a></li>
+    <li><a href="javascript:void(0)">Privacy Policy</a></li>
     </ul>
 
-    <div class="footer-secondary-links">
-      <ul>
-        <li><a href="javascript:void(0)">Terms and Conditions</a></li>
-        <li><a href="javascript:void(0)">Privacy Policy</a></li>
-      </ul>
-
-      <ul class="footer-social">
-        <li><a href="javascript:void(0)">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png" alt="Facebook">
-          </a></li>
-        <li><a href="javascript:void(0)">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png" alt="Twitter">
-        </a></li>
-        <li><a href="javascript:void(0)">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png" alt="YouTube">
-        </a></li>
-      </ul>
-    </div>
+    <ul class="footer-social">
+    <li><a href="javascript:void(0)">
+      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png" alt="Facebook">
+      </a></li>
+    <li><a href="javascript:void(0)">
+      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png" alt="Twitter">
+    </a></li>
+    <li><a href="javascript:void(0)">
+      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png" alt="YouTube">
+    </a></li>
+    </ul>
+  </div>
 </footer>
   </body>
 </html>
